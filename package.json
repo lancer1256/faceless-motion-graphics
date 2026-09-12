@@ -1,9 +1,9 @@
 {
-  "name": "faceless",
+  "name": "programmatic-3d-video-generation",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build",
     "serve": "node server.js",
     "serve:render": "http-server -p 8081 -c-1",
     "render:parallel": "node scripts/render_parallel.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lancer1256/faceless.git"
+    "url": "git+https://github.com/lancer1256/faceless-motion-graphics.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thomaslancer/faceless/issues"
+    "url": "https://github.com/lancer1256/faceless-motion-graphics/issues"
   },
-  "homepage": "https://github.com/thomaslancer/faceless#readme",
+  "homepage": "https://github.com/lancer1256/faceless-motion-graphics#readme",
   "dependencies": {
     "@react-three/drei": "^10.0.7",
     "bidi-js": "^1.0.3",
@@ -53,5 +53,5 @@
   "directories": {
     "doc": "docs"
   },
-  "description": "Deterministic Three.js motion graphics with a Trojan horse scene"
+  "description": "Programmatic 3D After Effects-style video generation with Three.js and GSAP"
 }

@@ -1,6 +1,6 @@
-# Faceless — Trojan Horse Motion Graphics
+# Programmatic 3D After Effects-Style Video Generation
 
-An experimental deterministic motion-graphics project built with Three.js,
+An experimental deterministic system for generating complete After Effects-style 3D videos in code. Built with Three.js,
 GSAP, Troika text, Puppeteer, and FFmpeg. It turns a timed transcript into a
 vertical 3D animation with camera moves, text choreography, scene transitions,
 and model-based visual metaphors—including the orange-lit Trojan horse scene.

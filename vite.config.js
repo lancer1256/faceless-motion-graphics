@@ -5,6 +5,12 @@ export default defineConfig({
   root: '.',                       // keep html at project root
   plugins: [glsl()],
 
+  build: {
+    rollupOptions: {
+      input: 'word_timings_basic.html',
+    },
+  },
+
   resolve: {
     alias: {
       // these keys must match the strings used in your JS imports
@@ -31,4 +37,3 @@ export default defineConfig({
     }
   }
 });
-
