@@ -1,6 +1,6 @@
 # Programmatic 3D After Effects-Style Video Generation
 
-**Built: May–June 2025**
+**Built: May 2025**
 
 A program for generating complete 3D After Effects-style videos in code: creative planning, animated typography, 3D asset sourcing and selection, and After Effects-style null-stacked camera movements.
 
