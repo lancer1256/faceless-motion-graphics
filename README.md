@@ -1,9 +1,8 @@
 # Programmatic 3D After Effects-Style Video Generation
 
-An experimental deterministic system for generating complete After Effects-style 3D videos in code. Built with Three.js,
-GSAP, Troika text, Puppeteer, and FFmpeg. It turns a timed transcript into a
-vertical 3D animation with camera moves, text choreography, scene transitions,
-and model-based visual metaphors—including the orange-lit Trojan horse scene.
+A program for generating complete 3D After Effects-style videos in code: creative planning, animated typography, 3D asset sourcing and selection, and After Effects-style null-stacked camera movements.
+
+The agent pipeline takes in an audio file, then finds 3D assets on xyz.com, uses a VLLM to orient the asset properly, determines typography style and camera motion, and generates the full video.
 
 This is a sanitized snapshot of the original `live-editing` history at commit
 `f3e6c4639` (`v1 full video`, May 22, 2025). Prototype credentials, debug dumps,
