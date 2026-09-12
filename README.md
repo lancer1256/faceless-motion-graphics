@@ -1,8 +1,10 @@
 # Programmatic 3D After Effects-Style Video Generation
 
+**Built: May–June 2025**
+
 A program for generating complete 3D After Effects-style videos in code: creative planning, animated typography, 3D asset sourcing and selection, and After Effects-style null-stacked camera movements.
 
-The agent pipeline takes in an audio file, then finds 3D assets on xyz.com, uses a VLLM to orient the asset properly, determines typography style and camera motion, and generates the full video.
+The agent pipeline takes in an audio file, then finds 3D assets on Sketchfab, uses a VLLM to orient the asset properly, determines typography style and camera motion, and generates the full video.
 
 This is a sanitized snapshot of the original `live-editing` history at commit
 `f3e6c4639` (`v1 full video`, May 22, 2025). Prototype credentials, debug dumps,
@@ -10,10 +12,8 @@ generated frame sequences, and unrelated experiments are not included.
 
 ## Demo
 
-The rendered visual demo is at
-[`demo/faceless-trojan-full.mp4`](demo/faceless-trojan-full.mp4). It is 1080×1920,
-60 fps, and 27.88 seconds long. The historical renderer produces a visual-only
-MP4 with no audio track.
+- [`demo/faceless-trojan-full.mp4`](demo/faceless-trojan-full.mp4) is the 1080×1920, 60 fps, 27.88-second Trojan horse composition. The historical renderer produced this visual-only MP4 with no audio track.
+- [`demo/faceless-lifes-work.mp4`](demo/faceless-lifes-work.mp4) is the 27.77-second “life's work” founder composition rendered in June 2025.
 
 ## Requirements
 
