@@ -1,0 +1,21 @@
+node_modules
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Local render frames and alternate exports
+renders/
+*.log
+__pycache__/
+*.pyc
+
+# The prototype's third-party model/font pack is intentionally local-only.
+/assets/*
+!/assets/REQUIRED_ASSETS.md
+
+# Keep the small portfolio/demo render in Git.
+*.mp4
+!demo/
+!demo/faceless-trojan-full.mp4

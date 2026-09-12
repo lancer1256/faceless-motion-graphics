@@ -1,0 +1,84 @@
+# Faceless — Trojan Horse Motion Graphics
+
+An experimental deterministic motion-graphics project built with Three.js,
+GSAP, Troika text, Puppeteer, and FFmpeg. It turns a timed transcript into a
+vertical 3D animation with camera moves, text choreography, scene transitions,
+and model-based visual metaphors—including the orange-lit Trojan horse scene.
+
+This is a sanitized snapshot of the original `live-editing` history at commit
+`f3e6c4639` (`v1 full video`, May 22, 2025). Prototype credentials, debug dumps,
+generated frame sequences, and unrelated experiments are not included.
+
+## Demo
+
+The rendered visual demo is at
+[`demo/faceless-trojan-full.mp4`](demo/faceless-trojan-full.mp4). It is 1080×1920,
+60 fps, and 27.88 seconds long. The historical renderer produces a visual-only
+MP4 with no audio track.
+
+## Requirements
+
+- Node.js 20.17 or newer
+- Google Chrome or Chromium
+- FFmpeg on `PATH`
+- The local asset pack listed in [`assets/REQUIRED_ASSETS.md`](assets/REQUIRED_ASSETS.md)
+
+## Preview
+
+```bash
+npm ci
+npm run serve:render
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8081/word_timings_basic.html?deterministicOutput=true
+```
+
+Add `&showGui=true` when you want the editor controls. Deterministic mode hides
+them so they are never burned into an export.
+
+## Render
+
+Keep the preview server running, then use a second terminal:
+
+```bash
+npm run render:parallel
+```
+
+The exporter probes the composition, splits the full frame range across four
+headless Chrome workers, validates the completed sequence, and encodes
+`renders/faceless-trojan-full.mp4` with FFmpeg.
+
+Useful overrides:
+
+```bash
+FACELESS_WORKERS=4 \
+FACELESS_OUTPUT=/absolute/path/video.mp4 \
+FACELESS_FRAMES_DIR=/absolute/path/temporary-frames \
+PUPPETEER_EXECUTABLE_PATH=/absolute/path/to/chrome \
+npm run render:parallel
+```
+
+## Project layout
+
+- `src/config/sceneSequenceConfig.js` — 22-scene composition and camera path
+- `src/config/textLibraryConfig.js` — timed transcript and text animation styles
+- `src/config/assetLibraryConfig.js` — model, texture, and material definitions
+- `src/utils/DeterministicPlayer.js` — exact frame seeking
+- `scripts/render_parallel.js` — parallel capture and FFmpeg assembly
+- `word_timings_basic.html` — browser render entry point
+
+## Assets and redistribution
+
+The original local prototype used third-party GLB models, textures, emoji
+images, and Apple's SF Pro font. Those binaries are kept out of Git until their
+redistribution rights are reviewed. The required filenames and directory layout
+are documented in `assets/REQUIRED_ASSETS.md`; place licensed copies there to
+reproduce the render.
+
+## License
+
+Source code is provided under the ISC License. Third-party assets are not
+covered by that license.

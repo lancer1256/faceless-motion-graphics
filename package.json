@@ -1,0 +1,57 @@
+{
+  "name": "faceless",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js",
+    "serve:render": "http-server -p 8081 -c-1",
+    "render:parallel": "node scripts/render_parallel.js",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint \"{src,utils,init,animation}/**/*.js\"",
+    "live": "live-server --port=8080 --open=basic_camera_movement.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancer1256/faceless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaslancer/faceless/issues"
+  },
+  "homepage": "https://github.com/thomaslancer/faceless#readme",
+  "dependencies": {
+    "@react-three/drei": "^10.0.7",
+    "bidi-js": "^1.0.3",
+    "express": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.3.0",
+    "gsap": "^3.12.5",
+    "meshline": "^3.3.1",
+    "mkdirp": "^3.0.1",
+    "npx": "^10.2.2",
+    "open": "^10.1.2",
+    "puppeteer": "^24.8.2",
+    "remotion": "^4.0.298",
+    "serve-static": "^2.2.0",
+    "three": "0.160.0",
+    "troika-three-text": "^0.49.0",
+    "webgl-sdf-generator": "^1.1.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "gltfjsx": "^6.5.3",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "vite": "^6.3.5",
+    "vite-plugin-glsl": "^1.4.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "description": "Deterministic Three.js motion graphics with a Trojan horse scene"
+}

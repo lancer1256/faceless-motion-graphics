@@ -1,0 +1,618 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "b8bb9ba4-2242-44dc-9c22-f1a4375f5fad",
+    "sha256": "4a83e7a4555d5b6de9336efa1dbc2166454f3bfa1e43dab5df99f8d40bbda81b",
+    "created": "2025-05-14T18:30:42.277Z",
+    "duration": 26.390625,
+    "channels": 1,
+    "models": [
+      "c6481769-89cd-447f-be27-1e6e9dac3616"
+    ],
+    "model_info": {
+      "c6481769-89cd-447f-be27-1e6e9dac3616": {
+        "name": "medium-whisper",
+        "version": "2022-09-21.5",
+        "arch": "whisper"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "If you want to sell online without resistance, stop acting like you're selling. Think of your marketing as a Trojan horse. On the outside, value, entertainment, or curiosity. Inside, your offer. Instead of buy these socks, say, ever wonder why your feet hurt after a long day? The brain lets the message in because it's not a sales pitch. Once inside, your offer unfolds naturally. Hack your pitch inside value and they'll welcome it in.",
+            "confidence": 0.9774269,
+            "words": [
+              {
+                "word": "if",
+                "start": 0.06,
+                "end": 0.17999999,
+                "confidence": 0.67564416,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "you",
+                "start": 0.17999999,
+                "end": 0.34,
+                "confidence": 0.99422073,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "want",
+                "start": 0.34,
+                "end": 0.39999998,
+                "confidence": 0.9963509,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "to",
+                "start": 0.39999998,
+                "end": 0.45999998,
+                "confidence": 0.9956909,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "sell",
+                "start": 0.45999998,
+                "end": 0.96,
+                "confidence": 0.9920425,
+                "punctuated_word": "sell"
+              },
+              {
+                "word": "online",
+                "start": 1.1,
+                "end": 1.14,
+                "confidence": 0.99302024,
+                "punctuated_word": "online"
+              },
+              {
+                "word": "without",
+                "start": 1.14,
+                "end": 1.4,
+                "confidence": 0.87928903,
+                "punctuated_word": "without"
+              },
+              {
+                "word": "resistance",
+                "start": 1.4,
+                "end": 1.9,
+                "confidence": 0.89025795,
+                "punctuated_word": "resistance,"
+              },
+              {
+                "word": "stop",
+                "start": 2.12,
+                "end": 2.36,
+                "confidence": 0.98969156,
+                "punctuated_word": "stop"
+              },
+              {
+                "word": "acting",
+                "start": 2.36,
+                "end": 2.86,
+                "confidence": 0.9774269,
+                "punctuated_word": "acting"
+              },
+              {
+                "word": "like",
+                "start": 2.8999999,
+                "end": 3.1,
+                "confidence": 0.983448,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "you're",
+                "start": 3.1,
+                "end": 3.26,
+                "confidence": 0.9963192,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "selling",
+                "start": 3.26,
+                "end": 3.6999998,
+                "confidence": 0.096150875,
+                "punctuated_word": "selling."
+              },
+              {
+                "word": "think",
+                "start": 3.6999998,
+                "end": 3.86,
+                "confidence": 0.9931163,
+                "punctuated_word": "Think"
+              },
+              {
+                "word": "of",
+                "start": 3.86,
+                "end": 4.02,
+                "confidence": 0.9984611,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "your",
+                "start": 4.02,
+                "end": 4.14,
+                "confidence": 0.99001795,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "marketing",
+                "start": 4.14,
+                "end": 4.54,
+                "confidence": 0.9751781,
+                "punctuated_word": "marketing"
+              },
+              {
+                "word": "as",
+                "start": 4.54,
+                "end": 4.74,
+                "confidence": 0.86877805,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "a",
+                "start": 4.74,
+                "end": 4.8599997,
+                "confidence": 0.999405,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "trojan",
+                "start": 4.8599997,
+                "end": 5.2799997,
+                "confidence": 0.6482598,
+                "punctuated_word": "Trojan"
+              },
+              {
+                "word": "horse",
+                "start": 5.2799997,
+                "end": 5.7,
+                "confidence": 0.17498632,
+                "punctuated_word": "horse."
+              },
+              {
+                "word": "On",
+                "start": 5.7,
+                "end": 5.7999997,
+                "confidence": 0.99868053,
+                "punctuated_word": "On"
+              },
+              {
+                "word": "the",
+                "start": 5.7999997,
+                "end": 5.94,
+                "confidence": 0.9337108,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "outside:",
+                "start": 5.94,
+                "end": 6.44,
+                "confidence": 0.9458583,
+                "punctuated_word": "outside,"
+              },
+              {
+                "word": "value",
+                "start": 6.5,
+                "end": 7,
+                "confidence": 0.99669206,
+                "punctuated_word": "value,"
+              },
+              {
+                "word": "entertainment",
+                "start": 7.02,
+                "end": 7.52,
+                "confidence": 0.9814156,
+                "punctuated_word": "entertainment,"
+              },
+              {
+                "word": "Or",
+                "start": 7.54,
+                "end": 7.7,
+                "confidence": 0.872172,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "curiosity",
+                "start": 7.7,
+                "end": 8.2,
+                "confidence": 0.14987284,
+                "punctuated_word": "curiosity."
+              },
+              {
+                "word": "inside",
+                "start": 8.58,
+                "end": 8.94,
+                "confidence": 0.9452636,
+                "punctuated_word": "Inside,"
+              },
+              {
+                "word": "your",
+                "start": 8.94,
+                "end": 9.099999,
+                "confidence": 0.980843,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "offer",
+                "start": 9.099999,
+                "end": 9.599999,
+                "confidence": 0.19578941,
+                "punctuated_word": "offer."
+              },
+              {
+                "word": "instead",
+                "start": 9.74,
+                "end": 10.04,
+                "confidence": 0.667675,
+                "punctuated_word": "Instead"
+              },
+              {
+                "word": "of",
+                "start": 10.04,
+                "end": 10.24,
+                "confidence": 0.8624461,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "buy",
+                "start": 10.24,
+                "end": 10.46,
+                "confidence": 0.95926034,
+                "punctuated_word": "buy"
+              },
+              {
+                "word": "these",
+                "start": 10.46,
+                "end": 10.679999,
+                "confidence": 0.58038414,
+                "punctuated_word": "these"
+              },
+              {
+                "word": "socks",
+                "start": 10.679999,
+                "end": 11.179999,
+                "confidence": 0.9496252,
+                "punctuated_word": "socks,"
+              },
+              {
+                "word": "say",
+                "start": 11.2,
+                "end": 11.599999,
+                "confidence": 0.28203034,
+                "punctuated_word": "say,"
+              },
+              {
+                "word": "ever",
+                "start": 11.599999,
+                "end": 11.82,
+                "confidence": 0.995826,
+                "punctuated_word": "ever"
+              },
+              {
+                "word": "wonder",
+                "start": 11.82,
+                "end": 12.04,
+                "confidence": 0.99134153,
+                "punctuated_word": "wonder"
+              },
+              {
+                "word": "why",
+                "start": 12.04,
+                "end": 12.2,
+                "confidence": 0.99758637,
+                "punctuated_word": "why"
+              },
+              {
+                "word": "your",
+                "start": 12.2,
+                "end": 12.38,
+                "confidence": 0.9979886,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "feet",
+                "start": 12.38,
+                "end": 12.62,
+                "confidence": 0.9966535,
+                "punctuated_word": "feet"
+              },
+              {
+                "word": "hurt",
+                "start": 12.62,
+                "end": 12.92,
+                "confidence": 0.9982021,
+                "punctuated_word": "hurt"
+              },
+              {
+                "word": "after",
+                "start": 12.92,
+                "end": 13.16,
+                "confidence": 0.99927765,
+                "punctuated_word": "after"
+              },
+              {
+                "word": "a",
+                "start": 13.16,
+                "end": 13.299999,
+                "confidence": 0.99758303,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "long",
+                "start": 13.299999,
+                "end": 13.54,
+                "confidence": 0.64870214,
+                "punctuated_word": "long"
+              },
+              {
+                "word": "day",
+                "start": 13.54,
+                "end": 13.9,
+                "confidence": 0.2254393,
+                "punctuated_word": "day?"
+              },
+              {
+                "word": "the",
+                "start": 13.9,
+                "end": 14.12,
+                "confidence": 0.9609711,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "brain",
+                "start": 14.12,
+                "end": 14.62,
+                "confidence": 0.99695325,
+                "punctuated_word": "brain"
+              },
+              {
+                "word": "lets",
+                "start": 14.7,
+                "end": 15,
+                "confidence": 0.9986077,
+                "punctuated_word": "lets"
+              },
+              {
+                "word": "the",
+                "start": 15,
+                "end": 15.06,
+                "confidence": 0.9982949,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "message",
+                "start": 15.06,
+                "end": 15.44,
+                "confidence": 0.72099227,
+                "punctuated_word": "message"
+              },
+              {
+                "word": "in",
+                "start": 15.44,
+                "end": 15.82,
+                "confidence": 0.97997457,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "because",
+                "start": 15.82,
+                "end": 16.1,
+                "confidence": 0.98234797,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "it's",
+                "start": 16.1,
+                "end": 16.38,
+                "confidence": 0.9214325,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "not",
+                "start": 16.38,
+                "end": 16.82,
+                "confidence": 0.9798243,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "a",
+                "start": 16.82,
+                "end": 16.98,
+                "confidence": 0.9814213,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "sales",
+                "start": 16.98,
+                "end": 17.34,
+                "confidence": 0.8508346,
+                "punctuated_word": "sales"
+              },
+              {
+                "word": "pitch",
+                "start": 17.34,
+                "end": 17.78,
+                "confidence": 0.84778166,
+                "punctuated_word": "pitch."
+              },
+              {
+                "word": "once",
+                "start": 17.78,
+                "end": 18.04,
+                "confidence": 0.65441716,
+                "punctuated_word": "Once"
+              },
+              {
+                "word": "inside",
+                "start": 18.04,
+                "end": 18.54,
+                "confidence": 0.9576445,
+                "punctuated_word": "inside,"
+              },
+              {
+                "word": "your",
+                "start": 18.74,
+                "end": 18.94,
+                "confidence": 0.9867871,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "offer",
+                "start": 18.94,
+                "end": 19.3,
+                "confidence": 0.99831843,
+                "punctuated_word": "offer"
+              },
+              {
+                "word": "unfolds",
+                "start": 19.3,
+                "end": 19.8,
+                "confidence": 0.73966914,
+                "punctuated_word": "unfolds"
+              },
+              {
+                "word": "naturally",
+                "start": 20.02,
+                "end": 20.52,
+                "confidence": 0.07036819,
+                "punctuated_word": "naturally."
+              },
+              {
+                "word": "package",
+                "start": 20.66,
+                "end": 20.98,
+                "confidence": 0.9935794,
+                "punctuated_word": "package"
+              },
+              {
+                "word": "your",
+                "start": 20.98,
+                "end": 21.18,
+                "confidence": 0.9130018,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "pitch",
+                "start": 21.18,
+                "end": 21.66,
+                "confidence": 0.52742815,
+                "punctuated_word": "pitch"
+              },
+              {
+                "word": "inside",
+                "start": 21.66,
+                "end": 22.14,
+                "confidence": 0.79163814,
+                "punctuated_word": "inside"
+              },
+              {
+                "word": "value",
+                "start": 22.14,
+                "end": 22.54,
+                "confidence": 0.98047364,
+                "punctuated_word": "value"
+              },
+              {
+                "word": "and",
+                "start": 22.54,
+                "end": 22.74,
+                "confidence": 0.94699717,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "they'll",
+                "start": 22.74,
+                "end": 22.96,
+                "confidence": 0.99407333,
+                "punctuated_word": "they'll"
+              },
+              {
+                "word": "welcome",
+                "start": 22.96,
+                "end": 23.3,
+                "confidence": 0.9876073,
+                "punctuated_word": "welcome"
+              },
+              {
+                "word": "it",
+                "start": 23.3,
+                "end": 23.46,
+                "confidence": 0.93413866,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "in",
+                "start": 23.46,
+                "end": 23.96,
+                "confidence": 0.09878655,
+                "punctuated_word": "in."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nIf you want to sell online without resistance, stop acting like you're selling. Think of your marketing as a Trojan horse. On the outside, value, entertainment, or curiosity. Inside, your offer. Instead of buy these socks, say, ever wonder why your feet hurt after a long day?\n\nThe brain lets the message in because it's not a sales pitch. Once inside, your offer unfolds naturally. Hack your pitch inside value and they'll welcome it in.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "If you want to sell online without resistance, stop acting like you're selling.",
+                      "start": 0.06,
+                      "end": 3.6999998
+                    },
+                    {
+                      "text": "Think of your marketing as a Trojan horse.",
+                      "start": 3.6999998,
+                      "end": 5.7
+                    },
+                    {
+                      "text": "On the outside, value, entertainment, or curiosity.",
+                      "start": 5.7,
+                      "end": 8.2
+                    },
+                    {
+                      "text": "Inside, your offer.",
+                      "start": 8.58,
+                      "end": 9.599999
+                    },
+                    {
+                      "text": "Instead of buy these socks, say, ever wonder why your feet hurt after a long day?",
+                      "start": 9.74,
+                      "end": 13.9
+                    }
+                  ],
+                  "num_words": 47,
+                  "start": 0.06,
+                  "end": 13.9
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "The brain lets the message in because it's not a sales pitch.",
+                      "start": 13.9,
+                      "end": 17.78
+                    },
+                    {
+                      "text": "Once inside, your offer unfolds naturally.",
+                      "start": 17.78,
+                      "end": 20.52
+                    },
+                    {
+                      "text": "Hack your pitch inside value and they'll welcome it in.",
+                      "start": 20.66,
+                      "end": 23.96
+                    }
+                  ],
+                  "num_words": 28,
+                  "start": 13.9,
+                  "end": 23.96
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
